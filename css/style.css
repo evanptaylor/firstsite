@@ -12,11 +12,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
+    height: 180px;
+    padding: 10px;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -31,6 +32,13 @@ body {
     align-items: center;
     color: #F9FAF8;
     height: 100%;
+    padding: 50px;
+}
+
+.intro1-right {
+    border: 2px solid white;
+    height: 100%;
+    width: 50%;
 }
 
 .projects2 {
@@ -39,6 +47,14 @@ body {
     justify-content: space-between;
     height: 100%;
     align-items: center;
+    padding: 50px;
+}
+
+.project1, .project2, .project3 {
+    height: 80px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 6px;
 }
 
 .quote3 {
@@ -65,4 +81,18 @@ body {
     color: #F9FAF8;
     height: 200px;
     
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-radius: 7px;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 5px;
 }
